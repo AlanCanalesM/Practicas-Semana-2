@@ -1,0 +1,55 @@
+body{
+    
+    background-image: url("cake.jpg");
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.txtlanding{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    position: relative;
+}
+
+
+div.menu ul
+{
+    list-style:none; 
+    margin: 0px; 
+    padding: 0px; 
+    width: auto; 
+}
+
+div.menu ul li
+{
+    float:right; 
+}
+
+div.menu ul li a
+{
+    
+    color: #965010; 
+    display: block; 
+    line-height: 1.35em; 
+    padding: 4px 20px; 
+    text-decoration: none;
+    
+}
+
+div.menu ul li a:hover{
+    color: red;
+}
+
+
+
+.imgl{
+	
+	position: absolute;
+	margin-left: -800px;
+	margin-top: -15px;
+}

@@ -1,0 +1,59 @@
+body{
+	font-family: arial, helvetica;
+	background: white;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: white;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	text-align: right;
+	border: 1px solid #965010;
+	border-left: white;
+	border-right: white;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#965010;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:#965010;
+	color:white
+}
+.Titulo{
+    position: absolute;
+    text-align: center;
+    color: #965010;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.tabla{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 25%;
+    color: #965010;
+    
+}
+.tabla th{
+    padding: 10px;
+}
+.imgl{
+	
+	position: absolute;
+	margin-left: -800px;
+	margin-top: -15px;
+}

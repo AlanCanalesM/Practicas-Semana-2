@@ -1,0 +1,66 @@
+body{
+	font-family: arial, helvetica;
+	background: white;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: white;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	text-align: right;
+	border: 1px solid #965010;
+	border-left: white;
+	border-right: white;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#965010;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:#965010;
+	color:white
+}
+
+div{
+    width: 100%;
+    text-align: center;
+}
+.Titulo{
+    position: absolute;
+    text-align: center;
+    color: #965010;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.sabor{
+    color: #965010;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.adorno{
+    color: #965010;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 900px;
+}
+
+.imgl{
+	
+	position: absolute;
+	margin-left: -800px;
+	margin-top: -15px;
+}

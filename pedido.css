@@ -1,0 +1,92 @@
+body{
+	font-family: arial, helvetica;
+	background: white;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: white;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	text-align: right;
+	border: 1px solid #965010;
+	border-left: white;
+	border-right: white;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:#965010;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:#965010;
+	color:white
+}
+
+
+.letras{
+    color: #965010;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.formulario{
+	text-align: center;
+}
+
+input::placeholder{
+	color: #965010;
+}
+
+.eT{
+	outline-color: #965010;
+	color: #965010;
+	padding: 10px;
+}
+
+#destxt{
+	padding: 40px;
+}
+
+.extras{
+	width: 100%;
+}
+
+.sabores{
+	
+	color:#965010;
+	font-size: 20px;
+	margin-left: 30%;
+	display: inline-block;
+
+}
+
+
+.detalles{
+	width: 100%;
+	
+}
+.listaSabores{
+	color: #965010;
+	outline-color: #965010;
+	margin-left: 30%;
+	display: inline-block;
+	
+}
+
+.imgl{
+	
+	position: absolute;
+	margin-left: -800px;
+	margin-top: -15px;
+}
